@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ Brain IA Legal Assistant  
 
-## Getting Started
+**Brain IA Legal Assistant** é um assistente jurídico baseado em IA que facilita a criação de documentos legais, petições e análises jurídicas. Utilizando **NestJS, LangChain, OpenAI e FastAPI**, o sistema permite o streaming em tempo real de conteúdos jurídicos gerados por IA, garantindo eficiência e precisão nos fluxos de trabalho jurídicos.  
 
-First, run the development server:
+## ✨ Funcionalidades  
+
+- 📜 **Geração Automática de Documentos Jurídicos** – Criação estruturada de petições com base em inputs do usuário.  
+- ⚡ **Streaming de IA em Tempo Real** – Geração dinâmica de respostas usando **LangChain**.  
+- 🏛️ **Argumentação e Análise Jurídica** – Apresentação de teses e argumentos embasados.  
+- 🔥 **Editor de Texto com Next.js** – Interface para refinamento de documentos gerados pela IA.  
+- 🔄 **Backend com NestJS** – API escalável e segura para geração de conteúdos jurídicos.  
+- 🛠 **Microserviços com FastAPI** – Processamento otimizado para respostas rápidas.  
+
+## 🚀 Tecnologias Utilizadas  
+
+- **Backend:** NestJS, FastAPI, OpenAI, LangChain  
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **Banco de Dados:** MongoDB  
+- **Autenticação e Segurança:** JWT, Firebase  
+
+## 🎯 Casos de Uso  
+
+- Advogados e profissionais do direito criando contratos, petições e pareceres.  
+- Escritórios de advocacia automatizando a geração de documentos e análise de casos.  
+- Usuários buscando insights jurídicos assistidos por IA.  
+
+## 📦 Instalação  
+
+Clone o repositório e instale as dependências:  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/seu-usuario/brain-ia-legal-assistant.git
+cd brain-ia-legal-assistant
+npm install
